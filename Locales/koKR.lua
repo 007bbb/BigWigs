@@ -5,9 +5,9 @@ if not L then return end
 -- API.lua
 L.showAddonBar = "'|cFF436EEE%s|r' 애드온이 '%s' 바를 생성했습니다."
 L.requestAddonProfile = "애드온 '|cFF436EEE%s|r'이 방금 프로필 내보내기 문자열을 복사했습니다."
---L.shortMinutesAndSeconds = "%d Min %d Sec" -- 1 Minute 2 Seconds
---L.shortSecondsOnly = "%d Sec" -- 28 Seconds
---L.shortSubTenSeconds = "%.1f Sec" -- 3.2 Seconds
+L.shortMinutesAndSeconds = "%d 분 %d 초" -- 1 Minute 2 Seconds
+L.shortSecondsOnly = "%d 초" -- 28 Seconds
+L.shortSubTenSeconds = "%.1f 초" -- 3.2 Seconds
 
 -- Core.lua
 L.berserk = "광폭화"
